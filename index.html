@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Community Problem Reporting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="hello">Community Problem Reporting</h1>
+    </header>
+    <div id="info" class="centered">
+        <h2>Report a Problem</h2>
+        <form id="report-form">
+            <label for="problem-type" id="hi">Problem Type:</label>
+            <select id="problem-type" name="problem-type">
+                <option value="Water Problem">Water Problem</option>
+                <option value="Electricity Issue">Electricity Issue</option>
+                <option value="Sewer Problem">Sewer Problem</option>
+                <!-- Add more problem types as needed -->
+            </select>
+            <label for="problem-location" id="hi">Location:</label>
+            <input type="text" id="problem-location" name="problem-location" placeholder="Enter location">
+            <label for="description" id="hi">Description:</label>
+            <textarea id="description" name="description" rows="4" placeholder="Provide a description of the problem"></textarea>
+            <button type="submit" class="larger-button">Report Problem</button>
+        </form>
+    </div>
+    <div id="problem-list">
+        <h2>Reported Problems</h2>
+        <ul>
+           
+        </ul>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
